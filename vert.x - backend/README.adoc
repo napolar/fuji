@@ -1,0 +1,5 @@
+= Fuji
+
+To run
+
+    mvn compile exec:java@run
