@@ -16,10 +16,11 @@ public class MainVerticle extends AbstractVerticle {
 
     @Override
     public void start() {
+        int PORT = 8080;
         /* Création du router, celui-ci se charge de préparer les routes */
         MainRouter router = new MainRouter(Router.router(vertx));
         /* HOOK : Before mount : Création du serveur, on lui applique le router */
-        vertx.createHttpServer().requestHandler(router.getPrimitiveRouter()::accept).listen(8080);
+        vertx.createHttpServer().requestHandler(router.getPrimitiveRouter()::accept).listen(PORT);
         /* HOOK : After mount : empty */
     }
 }

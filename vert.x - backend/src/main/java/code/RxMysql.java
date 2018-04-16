@@ -94,7 +94,7 @@ public class RxMysql {
      * findOrderById    -> renvoie une commande en particulier
      */
     public static Observable<GroupedObservable<Object, LineOrder>> getOrders() {
-        return adb.select("select op.order_id, op.product_id, op.quantity, o.user_id, o.created_at from Order_products op inner join `Order` o on o.id = op.order_id")
+        return adb.select("select op.order_id, op.product_id, op.quantity, o.user_id, o.created_at from Order_products op inner join `Order` o on o.id = op.order_id order by o.created_at ASC")
                 .autoMap(LineOrder.class)
                 .groupBy(lineOrder -> lineOrder.getOrder_id());
     }

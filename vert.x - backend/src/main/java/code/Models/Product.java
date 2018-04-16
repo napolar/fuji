@@ -1,6 +1,5 @@
 package code.Models;
 
-import code.Controllers.Categorie;
 import io.vertx.core.json.JsonObject;
 
 public class Product {
@@ -20,7 +19,12 @@ public class Product {
 
     public Product(int id) {
         this.id = id;
+    }
 
+    public Product(int id, String nom, int prix) {
+        this.id = id;
+        this.nom = nom;
+        this.prix = prix;
     }
 
     public int getId() {

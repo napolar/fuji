@@ -11,12 +11,15 @@ export default {
       maintainAspectRatio: false,
       title: {
         display: true,
-        text: "Chart.js Time Point Data"
+        text: ""
       },
       scales: {
         xAxes: [
           {
             type: "time",
+            time: {
+              format: "YYYY-MM-DD"
+            },
             display: true,
             scaleLabel: {
               display: true,
@@ -29,8 +32,7 @@ export default {
             display: true,
             ticks: {
               beginAtZero: true,
-              steps: 10,
-              stepValue: 1
+              suggestedMax: 8
             }
           }
         ]

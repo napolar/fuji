@@ -22,6 +22,12 @@
         </v-btn>
         <span>{{item.title}}</span>
       </v-tooltip>
+      <v-tooltip bottom>
+        <v-btn icon large href="http://localhost:8080/" slot="activator">
+          <v-icon>fas fa-power-off</v-icon>
+        </v-btn>
+        <span>Déconnection</span>
+      </v-tooltip>
     </v-toolbar>
     <v-content>
       <v-snackbar :timeout=4000 bottom right v-model="snackbar_show" :color="snackbar_color">
@@ -81,8 +87,7 @@ export default {
         .then(res => {
           this.user.money += 500;
           this.snackbar_show = true;
-          this.snackbar_text =
-            "Vous avez reçu une généreuse dotation de 500€ !";
+          this.snackbar_text = "Vous avez reçu une généreuse dotation de 500€ !";
           this.snackbar_color = "success";
           this.loading_money = false;
         })
@@ -96,10 +101,7 @@ export default {
   },
   beforeCreate: function() {
     // Avant de commencer l'appli, on charge notre token dans le localStorage
-    localStorage.setItem(
-      "fuji-token",
-      document.getElementsByName("auth-token")[0].getAttribute("content")
-    );
+    localStorage.setItem("fuji-token", document.getElementsByName("auth-token")[0].getAttribute("content"));
   },
   mounted: function() {
     http

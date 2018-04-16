@@ -196,7 +196,7 @@ export default {
   name: "home",
   data() {
     return {
-      colors: ["#45aaf2", "#fc5c65", "#26de81", "#2bcbba", "#fed330", "#a55eea", "#2196F3", "#4b7bec", "#E91E63", "#9C27B0", "#8BC34A", "#FFEB3B", "#313151"],
+      colors: ["#45aaf2", "#fc5c65", "#26de81", "#2bcbba", "#fed330", "#a55eea", "#2196F3", "#4b7bec", "#E91E63", "#9C27B0", "#8BC34A", "#FFEB3B", "#eccc68", "#ff7f50", "#ff6b81", "#5352ed", "#7bed9f"],
       users: [],
       commandes: [],
       zones: [],
@@ -392,6 +392,17 @@ export default {
             }
           ]
         };
+        this.commandes = this.commandes.sort(function(a, b) {
+          var aa = a.created_at
+              .split("-")
+              .reverse()
+              .join(),
+            bb = b.created_at
+              .split("-")
+              .reverse()
+              .join();
+          return aa < bb ? -1 : aa > bb ? 1 : 0;
+        });
         this.commandes.map(c => {
           let point = ret.datasets[0].data.find(point => point.x == c.created_at);
           if (point) {

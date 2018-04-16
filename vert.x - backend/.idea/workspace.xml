@@ -15,7 +15,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/vert_x___backend$OrderTest.ic" NAME="OrderTest Coverage Results" MODIFIED="1523869125426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>java_test.Models.*</FILTER>
+      <FILTER>code.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/vert_x___backend$LineOrderTest.ic" NAME="LineOrderTest Coverage Results" MODIFIED="1523869131293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>java_test.Models.*</FILTER>
+      <FILTER>code.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/vert_x___backend$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1523869119890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>java_test.Models.*</FILTER>
+      <FILTER>code.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/vert_x___backend$CategorieTest.ic" NAME="CategorieTest Coverage Results" MODIFIED="1523869137584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>java_test.Models.*</FILTER>
+      <FILTER>code.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/vert_x___backend$RxMysqlTest.ic" NAME="RxMysqlTest Coverage Results" MODIFIED="1523869395501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>java_test.DAO.*</FILTER>
+      <FILTER>code.*</FILTER>
+      <FILTER>java_test.Models.CategorieTest</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/vert_x___backend$All_in_maven_verticle.ic" NAME="All in maven-verticle Coverage Results" MODIFIED="1523869597141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/vert_x___backend$MainVerticle.coverage" NAME="MainVerticle Coverage Results" MODIFIED="1521204890558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>code.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/vert_x___backend$MainVerticle.ic" NAME="MainVerticle Coverage Results" MODIFIED="1523868757004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>code.*</FILTER>
     </SUITE>
   </component>
@@ -56,12 +81,80 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/login.css">
+    <leaf>
+      <file leaf-file-name="Categorie.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/Categorie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="108" column="17" lean-forward="true" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+            <state relative-caret-position="436">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RxMysqlTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java_test/DAO/RxMysqlTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategorieTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java_test/Models/CategorieTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineOrderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java_test/Models/LineOrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java_test/Models/OrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java_test/Models/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RxMysql.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code/RxMysql.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="120" column="33" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -73,6 +166,8 @@
       <list>
         <option value="CSS File" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -81,17 +176,14 @@
       <find>group</find>
       <find>token</find>
       <find>input</find>
+      <find>console</find>
+      <find>print</find>
+      <find>println</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/io/vertx/example/HelloWorldVerticle.java" />
-        <option value="$PROJECT_DIR$/README.adoc" />
-        <option value="$PROJECT_DIR$/src/main/java/code/Controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/View/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/code/Controller/ApplicationController.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/code/Views/login.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/code/Controllers/ApplicationController.java" />
@@ -107,28 +199,42 @@
         <option value="$PROJECT_DIR$/src/main/java/code/Controllers/ProductsController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/061e1d4f-2228-43a4-a242-b313e0e8e8e5/console_3.sql" />
         <option value="$PROJECT_DIR$/src/main/java/code/Controllers/AuthController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/Models/Categorie.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/Controllers/CategoriesController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/Models/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/Models/LineOrder.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/061e1d4f-2228-43a4-a242-b313e0e8e8e5/console_4.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/code/Models/User.java" />
         <option value="$PROJECT_DIR$/Views/dashboard.hbs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4c4062cc-5a71-495e-b96e-8dc358d004b0/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/code/Models/Order.java" />
         <option value="$PROJECT_DIR$/Views/client.hbs" />
         <option value="$PROJECT_DIR$/Views/login.hbs" />
-        <option value="$PROJECT_DIR$/src/main/java/code/Models/Zone.java" />
         <option value="$PROJECT_DIR$/Views/register.hbs" />
-        <option value="$PROJECT_DIR$/Views/admin.hbs" />
-        <option value="$PROJECT_DIR$/src/main/java/code/MainVerticle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/MainRouter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/RxMysql.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/Controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/Controllers/OrdersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/Controllers/UsersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/Controllers/ZonesController.java" />
         <option value="$PROJECT_DIR$/static/css/login.css" />
+        <option value="$PROJECT_DIR$/src/main/java/test/code/test/CategorieTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/Models/CategorieTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/Verticle/MainRouter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/Models/Categorie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/Models/LineOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/Models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/Models/Zone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/MainRouter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CategorieTest.java" />
+        <option value="$PROJECT_DIR$/src/test/src/CategorieTest.java" />
+        <option value="$PROJECT_DIR$/src/test/Models/CategorieTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java_test/Models/CategorieTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java_test/Models/LineOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/Models/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/Models/Product.java" />
+        <option value="$PROJECT_DIR$/src/test/java_test/Models/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java_test/Models/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java_test/Models/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java_test/DAO/RxMysqlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/MainVerticle.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/061e1d4f-2228-43a4-a242-b313e0e8e8e5/console_5.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/code/RxMysql.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/Controllers/OrdersController.java" />
+        <option value="$PROJECT_DIR$/Views/index.html" />
+        <option value="$PROJECT_DIR$/Views/admin.hbs" />
       </list>
     </option>
   </component>
@@ -166,7 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,25 +290,111 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vert.x - backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x - backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x - backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x - backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x - backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x - backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x - backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x - backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x - backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x - backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x - backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x - backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x - backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x - backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java_test" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x - backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x - backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x - backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x - backend" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="login&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/static/css/login.css&#10;user&#9;FILE&#9;das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/User&#10;rx&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/RxMysql.java&#10;zone&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Models/Zone.java&#10;router&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/MainRouter.java&#10;contro&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/UsersController.java&#10;line&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Models/LineOrder.java&#10;order&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Models/Order.java&#10;das&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/Views/dashboard.hbs&#10;produc&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Models/Product.java&#10;pro&#9;FILE&#9;das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Product&#10;mainr&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/MainRouter.java&#10;or&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/OrdersController.java&#10;control&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/Controller.java&#10;zones&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/ZonesController.java&#10;auth&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/AuthController.java&#10;main&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/MainRouter.java&#10;product&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/ProductsController.java&#10;prod&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/ProductsController.java&#10;pom&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/pom.xml&#10;use&#9;PSI&#9;JAVA://code.Models.User&#10;po&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="rx&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/RxMysql.java&#10;index&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/Views/index.html&#10;order&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/OrdersController.java&#10;prod&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Models/Product.java&#10;user&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Models/User.java&#10;login&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/static/css/login.css&#10;zone&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Models/Zone.java&#10;router&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/MainRouter.java&#10;contro&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/UsersController.java&#10;line&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Models/LineOrder.java&#10;das&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/Views/dashboard.hbs&#10;produc&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Models/Product.java&#10;pro&#9;FILE&#9;das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Product&#10;mainr&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/MainRouter.java&#10;or&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/OrdersController.java&#10;control&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/Controller.java&#10;zones&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/ZonesController.java&#10;auth&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/AuthController.java&#10;main&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/MainRouter.java&#10;product&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/src/main/java/code/Controllers/ProductsController.java&#10;pom&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/pom.xml&#10;use&#9;PSI&#9;JAVA://code.Models.User&#10;po&#9;FILE&#9;file:///home/thomas/projets/fuji/vert.x - backend/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="java_test.DAO" />
+      <recent name="java_test.Models" />
+      <recent name="code.Models" />
+      <recent name="code.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,23 +408,142 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in maven-verticle">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="MainVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.MainVerticle" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in maven-verticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven-verticle" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CategorieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-verticle" />
       <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_test.Models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
         <pattern>
           <option name="PATTERN" value="code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="java_test.Models" />
+      <option name="MAIN_CLASS_NAME" value="java_test.Models.CategorieTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="LineOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-verticle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_test.Models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="java_test.Models" />
+      <option name="MAIN_CLASS_NAME" value="java_test.Models.LineOrderTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-verticle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_test.Models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="java_test.Models" />
+      <option name="MAIN_CLASS_NAME" value="java_test.Models.OrderTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RxMysqlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-verticle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_test.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="java_test.Models.CategorieTest" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="java_test.DAO" />
+      <option name="MAIN_CLASS_NAME" value="java_test.DAO.RxMysqlTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -312,9 +622,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RxMysqlTest" />
+      <item itemvalue="JUnit.CategorieTest" />
+      <item itemvalue="JUnit.LineOrderTest" />
+      <item itemvalue="JUnit.OrderTest" />
+      <item itemvalue="JUnit.All in maven-verticle" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainVerticle" />
+        <item itemvalue="JUnit.All in maven-verticle" />
+        <item itemvalue="JUnit.RxMysqlTest" />
+        <item itemvalue="JUnit.CategorieTest" />
+        <item itemvalue="JUnit.LineOrderTest" />
+        <item itemvalue="JUnit.OrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -357,11 +678,48 @@
       <workItem from="1523732916165" duration="225000" />
       <workItem from="1523733899165" duration="3858000" />
       <workItem from="1523782765736" duration="8308000" />
+      <workItem from="1523801032856" duration="2825000" />
+      <workItem from="1523807400533" duration="226000" />
+      <workItem from="1523807655483" duration="336000" />
+      <workItem from="1523808027806" duration="6799000" />
+      <workItem from="1523867864316" duration="2101000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserTest - 2018.04.16 at 10h 58m 40s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2018.04.16 at 10h 58m 46s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineOrderTest - 2018.04.16 at 10h 58m 52s.xml">
+      <configuration name="LineOrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategorieTest - 2018.04.16 at 10h 58m 58s.xml">
+      <configuration name="CategorieTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RxMysqlTest - 2018.04.16 at 10h 59m 08s.xml">
+      <configuration name="RxMysqlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RxMysqlTest - 2018.04.16 at 11h 00m 02s.xml">
+      <configuration name="RxMysqlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RxMysqlTest - 2018.04.16 at 11h 01m 06s.xml">
+      <configuration name="RxMysqlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RxMysqlTest - 2018.04.16 at 11h 03m 19s.xml">
+      <configuration name="RxMysqlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_maven-verticle - 2018.04.16 at 11h 06m 30s.xml">
+      <configuration name="All in maven-verticle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_maven-verticle - 2018.04.16 at 11h 06m 42s.xml">
+      <configuration name="All in maven-verticle" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141542000" />
+    <option name="totallyTimeSpent" value="153829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +732,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-31" width="1920" height="1111" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32887402" />
@@ -383,42 +740,42 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.4848485" weight="0.32886267" />
+      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.48287112" weight="0.32886267" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32938388" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3415682" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32867885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3415682" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" sideWeight="0.5171289" side_tool="true" visible="true" weight="0.32886267" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24704619" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18293992" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19635193" />
       <window_info anchor="right" id="Database" order="5" weight="0.32832617" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49292928" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.54027927" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5151515" side_tool="true" weight="0.32959402" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867885" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44816053" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20405982" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939324" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44816053" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -428,7 +785,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32887402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -445,7 +802,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -453,75 +810,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/View/login.html" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2429">
-          <caret line="903" column="12" selection-start-line="903" selection-start-column="12" selection-end-line="903" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Views/login.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/ApplicationController.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.0/rxjava-1.3.0.jar!/rx/functions/Func1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.5.1/vertx-core-3.5.1.jar!/io/vertx/core/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.0/rxjava-1.3.0.jar!/rx/functions/Action1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/static/login.css" />
-    <entry file="file://$PROJECT_DIR$/static/login.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/login.css" />
-    <entry file="file://$PROJECT_DIR$/static/css/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3306">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Discount">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Order.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/061e1d4f-2228-43a4-a242-b313e0e8e8e5/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -550,41 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Categorie">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/CategoriesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Order">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Order_products">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -596,13 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="73" selection-start-column="73" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2065">
-          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -641,33 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/b4c678b/061e1d4f-2228-43a4-a242-b313e0e8e8e5/fuji.Zone">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/Zone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b4c678b/061e1d4f-2228-43a4-a242-b313e0e8e8e5/fuji.User">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/register.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -679,20 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/MainVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/MainRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="63" column="132" selection-start-line="63" selection-start-column="132" selection-end-line="63" selection-end-column="132" />
         </state>
       </provider>
     </entry>
@@ -711,44 +916,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/Categorie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/OrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <caret line="73" column="49" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/Categorie.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/ProductsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/RxMysql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -766,48 +938,296 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/LineOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/code/test/CategorieTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/CategorieTest.java" />
+    <entry file="file://$PROJECT_DIR$/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-757">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="35">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/Categorie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Verticle/MainRouter.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/CategorieTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/src/CategorieTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/test/CategorieTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/MainRouter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="2205">
+          <caret line="73" column="45" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Models/CategorieTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/LineOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1110">
-          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        <state relative-caret-position="210">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/Zone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/login.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/CategoriesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="108" column="17" lean-forward="true" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        <state relative-caret-position="245">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4c678b/061e1d4f-2228-43a4-a242-b313e0e8e8e5/fuji.Zone">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Categorie">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://061e1d4f-2228-43a4-a242-b313e0e8e8e5/schema/fuji/table/Order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/061e1d4f-2228-43a4-a242-b313e0e8e8e5/console_5.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="84" selection-start-column="84" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Controllers/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/admin.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4c678b/061e1d4f-2228-43a4-a242-b313e0e8e8e5/fuji.User">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/RxMysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="120" column="33" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java_test/Models/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java_test/Models/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java_test/Models/LineOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java_test/Models/CategorieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java_test/DAO/RxMysqlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/Models/Categorie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>maven-verticle</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

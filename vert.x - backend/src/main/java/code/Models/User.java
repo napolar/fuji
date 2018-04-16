@@ -1,9 +1,6 @@
 package code.Models;
 
-import io.vertx.core.AsyncResult;
-import io.vertx.core.Handler;
 import io.vertx.core.json.JsonObject;
-import io.vertx.ext.auth.AuthProvider;
 import io.vertx.ext.web.RoutingContext;
 import org.apache.commons.codec.digest.DigestUtils;
 
