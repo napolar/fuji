@@ -62,7 +62,7 @@ public class RxMysql {
         return adb.update("insert into User(username, email, password_digest, money, zone_id, token)"
                 + " values(?,?,?,?,?,?)")
                 .parameters(user.getUsername(), user.getEmail(), user.getHashPassword(), user.getMoney(), user.getZone_id(), token)
-                .returnGeneratedKeys()
+                .returnGeneratedKeys() // renvoie l'id generé par ce nouvel utilisateur
                 .getAs(Integer.class);
     }
 

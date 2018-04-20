@@ -9,7 +9,7 @@ public class ZonesController extends Controller {
     public static void index(RoutingContext context) {
         // Seulement si l'utilisateur est admin
         if (!is_admin(context)) {
-            sendError(403, context);
+            sendError(403, context); // unauthorized / forbidden
         } else {
             JsonArray zones = new JsonArray();
             RxMysql.getZones()

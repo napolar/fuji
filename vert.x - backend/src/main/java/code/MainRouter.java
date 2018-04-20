@@ -18,7 +18,7 @@ public class MainRouter {
         this.router.route().handler(BodyHandler.create()); // afin de lire le body des requêtes
         this.allowCORS(router); // accepte les requêtes CORS (Cross Domain)
         router.route("/static/*").handler(StaticHandler.create("static").setCachingEnabled(false)); // On sert les assets de manière statique
-        this.authMiddleware(); // Middleware : charge l'utilisateur courant dans current_user
+        this.authMiddleware(); // Middleware : charge l'utilisateur courant dans le contexte
         this.fillRoutes(); // On charge ensuite les routes
     }
 
@@ -55,25 +55,25 @@ public class MainRouter {
     // Routes de l'application
     public void fillRoutes() {
         // page de login, register et les méthodes pour se connecter
-        router.get("/").handler(UsersController::login);
-        router.get("/register").handler(UsersController::register);
-        router.post("/").handler(UsersController::dashboard);
-        router.post("/register").handler(UsersController::create);
+        router.get("/").handler(UsersController::login);                    // Login page
+        router.get("/register").handler(UsersController::register);         // Register page
+        router.post("/").handler(UsersController::dashboard);             // Tentative de login -> dashboard page
+        router.post("/register").handler(UsersController::create);        // Inscription -> dashboard page
         router.get("/who_am_i").handler(AuthController::who_am_i);         // renvoie l'information concernant l'utilisateur courant
         // Utilisateur(s)
         router.get("/users").handler(UsersController::index);               // return users[] : JSON
         router.get("/user/:id").handler(UsersController::show);             // renvoie user : JSON
         router.get("/get_money").handler(UsersController::get_money);       // + 500€
         // Produit(s)
-        router.get("/products").handler(ProductsController::index);         // renvoie product[] : JSON
+        router.get("/products").handler(ProductsController::index);         // renvoie products[] : JSON
         // Commande(s) (f° utilisateur)
         router.get("/orders").handler(OrdersController::index);             // renvoie order[] : JSON
         router.post("/orders").handler(OrdersController::create);        // créer nouvelle order
         router.get("/orders/:id").handler(OrdersController::show);          // renvoie order : JSON
         // Zones
-        router.get("/zones").handler(ZonesController::index);               // renvoie zone[] : JSON
+        router.get("/zones").handler(ZonesController::index);               // renvoie zones[] : JSON
         // Categories
-        router.get("/categories").handler(CategoriesController::index);     // renvoie categorie[] : JSON
+        router.get("/categories").handler(CategoriesController::index);     // renvoie categories[] : JSON
     }
 
     public void authMiddleware() {

@@ -9,8 +9,8 @@ import java.sql.Date;
 public class LineOrder {
     private int quantite;
     private Product product;
-    private int order_id;
     /* Order attribute */
+    private int order_id;
     private int user_id;
     private Date created_at;
 
